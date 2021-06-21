@@ -9,6 +9,7 @@ module.exports = mysql.createConnection({
 })
 
 /*
+
 // with connection pool
 module.exports = mysql.createPool({
   host: 'localhost',
@@ -17,4 +18,6 @@ module.exports = mysql.createPool({
   waitForConnection: true,
   connectionLimit: 10,
   queueLimit: 0
-})*/
+})
+
+*/
